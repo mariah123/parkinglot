@@ -1,5 +1,5 @@
 # Parkinglot
-Parkinglot Management System (WebApp &amp; Unit Test) (Frontend layer test case is in separate repo)
+Parkinglot Management System (WebApp &amp; Unit Test) (Frontend layer test case is in separate repo: https://github.com/mariah123/parkinglot_test.git)
 
 ## Database Setup
 
