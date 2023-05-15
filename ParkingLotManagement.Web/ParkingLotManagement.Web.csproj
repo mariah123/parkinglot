@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <!--<Nullable>enable</Nullable>-->
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCoreHero.ToastNotification" Version="1.1.0" />
+    <PackageReference Include="toastr" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ParkingLotManagement.Application\ParkingLotManagement.Application.csproj" />
+    <ProjectReference Include="..\ParkingLotManagement.Infrastructure\ParkingLotManagement.Infrastructure.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<InternalsVisibleTo Include="..\ParkingLotManagement.Application\ParkingLotManagement.Tests.csproj" />
+	</ItemGroup>
+
+</Project>

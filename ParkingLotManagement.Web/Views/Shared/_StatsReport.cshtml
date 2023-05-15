@@ -1,0 +1,38 @@
+﻿@model StatisticsViewModel
+
+<div class="modal" id="modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Parkinglot Statistics</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" fdprocessedid="3kesw">
+                    <span aria-hidden="true"></span>
+                </button>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <table class="table table-striped">
+                    <tbody>
+                        <tr>
+                            <td class="td-left">Number of spots available as of now</td>
+                            <td>@Model.SpotsAvailable</td>
+                        </tr>
+                        <tr>
+                            <td class="td-left">Today’s revenue as of now</td>
+                            <td>@Model.TodaysRevenue</td>
+                        </tr>
+                        <tr>
+                            <td class="td-left">Average number of cars per day (for the past 30 days)</td>
+                            <td>@Model.AverageDailyCheckInForMonth</td>
+                        </tr>
+                        <tr>
+                            <td class="td-left">Average revenue per day (for the past 30 days)</td>
+                            <td>@Model.AverageDailyRevenueForMonth</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+            </div>
+        </div>
+    </div>
+</div>

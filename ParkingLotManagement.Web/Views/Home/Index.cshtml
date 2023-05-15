@@ -1,0 +1,85 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="d-flex h-100">
+    <div class="col-4">
+        <div class="d-flex flex-column  align-items-center m-2 h-100" style="border: thin solid #e0e0e0">
+            <div class="d-flex justify-content-center mt-4">
+                <h5><b>CheckIn/CheckOut Cars Here</b></h5>
+            </div>
+            <form class="d-flex justify-content-center">
+                <fieldset>
+
+                    <div class="form-group">
+                        <label for="tagNumber" class="form-label mt-4">Car tag number:</label>
+                        <input type="email" name="tagNumber" id="tagNumber" class="form-control" placeholder="Enter tag number">
+                        <small class="form-text" id="errorField" style="color:red;font-size:12px"></small>
+                    </div>
+                    <div class="form-group mt-3">
+                        <div style="float: left; display:inline-block;">
+                            <button type="button" class="btn btn-primary" name="checkIn" id="btnCheckIn">CheckIn</button>
+                        </div>
+                        <div style="float: right; display:inline-block;">
+                            <button type="button" class="btn btn-primary" name="ckeckOut" id="btnCheckOut">CheckOut</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+            <div class=" d-flex justify-content-center form-group mt-5">
+                <div style="display:inline-block;">
+                    <input class="btn btn-secondary" name="stats" id="btnStats" value="Statistics" type="button">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-8">
+        <div class="m-2 h-100" style="border: thin solid #e0e0e0">
+            <div class="d-flex justify-content-center mt-4">
+                <h3><b>Parking lot</b></h3>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <span>Hourly Fee:</span>
+                <span id="hourlyFee" name="hourlyFee"></span>
+            </div>
+            <div class="d-flex justify-content-center mb-2">
+                <div class="d-flex d-flex justify-content-between w-75">
+                    <div class="d-flex justify-content-start">
+                        <label>Total Spots:</label> &nbsp;
+                        <label id="totalSpots" name="totalSpots"></label>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <label>Available spots:</label> &nbsp;
+                        <label id="availableSpots" name="availableSpots"></label>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="d-flex justify-content-center">
+                <table id="tblCars" class="table table-bordered table-striped table-responsive table-hover w-75">
+                    <thead>
+                        <tr>
+                            <th align="center">Tag Number</th>
+                            <th align="center"> CheckIn Time</th>
+                            <th align="center">Elapsed time</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="d-flex d-flex justify-content-end w-75">
+                    <label>Spots taken:</label> &nbsp;
+                    <label id="spotsTaken" name="spotsTaken"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div id="modal-container">
+</div>
+
+

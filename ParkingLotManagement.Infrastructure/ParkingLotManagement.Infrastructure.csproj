@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Dtos\CheckResponse.cs~RF17aa868b.TMP" />
+    <None Remove="Scripts\Migration_20230506064700_create_schema.sql" />
+    <None Remove="Scripts\Migration_20230506081811_create_sp.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\Migration_20230506081811_create_sp.sql" />
+    <EmbeddedResource Include="Scripts\Migration_20230506064700_create_schema.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="FluentMigrator.Runner" Version="3.3.2" />
+    <PackageReference Include="Insight.Database" Version="6.3.11" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ParkingLotManagement.Domain\ParkingLotManagement.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

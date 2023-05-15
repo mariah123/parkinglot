@@ -1,0 +1,12 @@
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Domain\bin\Debug\net6.0\ParkingLotManagement.Domain.deps.json
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Domain\bin\Debug\net6.0\ParkingLotManagement.Domain.dll
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Domain\bin\Debug\net6.0\ParkingLotManagement.Domain.pdb
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Domain\obj\Debug\net6.0\ParkingLotManagement.Domain.csproj.AssemblyReference.cache
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Domain\obj\Debug\net6.0\ParkingLotManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Domain\obj\Debug\net6.0\ParkingLotManagement.Domain.AssemblyInfoInputs.cache
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Domain\obj\Debug\net6.0\ParkingLotManagement.Domain.AssemblyInfo.cs
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Domain\obj\Debug\net6.0\ParkingLotManagement.Domain.csproj.CoreCompileInputs.cache
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Domain\obj\Debug\net6.0\ParkingLotManagement.Domain.dll
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Domain\obj\Debug\net6.0\refint\ParkingLotManagement.Domain.dll
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Domain\obj\Debug\net6.0\ParkingLotManagement.Domain.pdb
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Domain\obj\Debug\net6.0\ref\ParkingLotManagement.Domain.dll

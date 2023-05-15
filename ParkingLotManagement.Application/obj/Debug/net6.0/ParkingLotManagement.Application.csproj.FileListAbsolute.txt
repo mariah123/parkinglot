@@ -1,0 +1,17 @@
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Application\bin\Debug\net6.0\ParkingLotManagement.Application.deps.json
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Application\bin\Debug\net6.0\ParkingLotManagement.Application.dll
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Application\bin\Debug\net6.0\ParkingLotManagement.Application.pdb
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Application\bin\Debug\net6.0\ParkingLotManagement.Domain.dll
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Application\bin\Debug\net6.0\ParkingLotManagement.Infrastructure.dll
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Application\bin\Debug\net6.0\ParkingLotManagement.Domain.pdb
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Application\bin\Debug\net6.0\ParkingLotManagement.Infrastructure.pdb
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Application\obj\Debug\net6.0\ParkingLotManagement.Application.csproj.AssemblyReference.cache
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Application\obj\Debug\net6.0\ParkingLotManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Application\obj\Debug\net6.0\ParkingLotManagement.Application.AssemblyInfoInputs.cache
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Application\obj\Debug\net6.0\ParkingLotManagement.Application.AssemblyInfo.cs
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Application\obj\Debug\net6.0\ParkingLotManagement.Application.csproj.CoreCompileInputs.cache
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Application\obj\Debug\net6.0\ParkingLotManagement.Application.csproj.CopyComplete
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Application\obj\Debug\net6.0\ParkingLotManagement.Application.dll
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Application\obj\Debug\net6.0\refint\ParkingLotManagement.Application.dll
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Application\obj\Debug\net6.0\ParkingLotManagement.Application.pdb
+D:\Practice_Projects\ParkingLotManagement\ParkingLotManagement.Application\obj\Debug\net6.0\ref\ParkingLotManagement.Application.dll
